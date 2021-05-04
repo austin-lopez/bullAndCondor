@@ -35,4 +35,9 @@ p {
 	margin-top: -80px;
 	font-size: 0.6em;
 	margin-left: 120px;
+	letter-spacing: 0.2px;
+}
+
+span {
+	font-size: 0.7em;
 }

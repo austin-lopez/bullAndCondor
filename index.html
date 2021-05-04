@@ -13,7 +13,7 @@
 	<canvas id="bullAndCondor" width="761" height="946"></canvas>
 	<img src="image.png">
 	<img id="reference" src="image.png">
-	<p>SuauaSamin</p>
+	<p>S<span>UAYA</span>s<span>AMIM</span></p>
 	
 	<script>
 		
@@ -21,7 +21,7 @@
 	var myCanvas = document.getElementById("bullAndCondor");
 		
 	var z = false;
-	const n = "bullHindHoof";
+	const n = "bullRightEye";
 		
 	function getCursorPosition(canvas, event) {
    		const rect = canvas.getBoundingClientRect();
@@ -31,7 +31,7 @@
 		{	console.log(n + ".closePath();");
 		 	console.log(n + ".fill();");
 			console.log("var " + n + "= myCanvas.getContext('2d');");
-		    console.log(n + ".fillStyle='#919b50';");
+		    console.log(n + ".fillStyle='#c64322';");
 		 	console.log(n + ".beginPath();");
 			console.log(n + ".moveTo(" + x +"," + y + ");");
 		 	z = true;
@@ -1680,6 +1680,33 @@
 		bullHindHoof.lineTo(651,636);
 		bullHindHoof.closePath();
 		bullHindHoof.fill();
+		
+		
+	
+	var bullLeftEye= myCanvas.getContext('2d');
+	bullLeftEye.fillStyle='#c64322';
+	bullLeftEye.beginPath();
+	bullLeftEye.moveTo(428,769.4400024414062);
+	bullLeftEye.lineTo(414,768.4400024414062);
+	bullLeftEye.lineTo(412,776.4400024414062);
+	bullLeftEye.lineTo(414,782.4400024414062);
+	bullLeftEye.lineTo(421,785.4400024414062);
+	bullLeftEye.lineTo(429,780.4400024414062);
+	bullLeftEye.closePath();
+	bullLeftEye.fill();
+		
+		
+		var bullRightEye= myCanvas.getContext('2d');
+		bullRightEye.fillStyle='#c64322';
+		bullRightEye.beginPath();
+		bullRightEye.moveTo(507,709.4400024414062);
+		bullRightEye.lineTo(516,710.4400024414062);
+		bullRightEye.lineTo(519,717.4400024414062);
+		bullRightEye.lineTo(517,723.4400024414062);
+		bullRightEye.lineTo(505,721.4400024414062);
+		bullRightEye.lineTo(506,709.4400024414062);
+		bullRightEye.closePath();
+		bullRightEye.fill();
 		
 		
 		
